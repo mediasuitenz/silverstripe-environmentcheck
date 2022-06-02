@@ -65,9 +65,9 @@
         <h2 class="website">Site: $URL</h2>
 
         <table>
-            <tr><th>Check</th> <th>Status</th> <th>Message</th></tr>
+            <tr><th>Check</th> <th>Status</th> <th>Response Time</th> <th>Message</th></tr>
             <% loop $Details %>
-            <tr><td>$Check</td> <td class="$Status">$Status</td> <td>$Message.XML</td></tr>
+            <tr><td>$Check</td> <td class="$Status">$Status</td> <td class="$ResponseTime">$ResponseTime</td> <td>$Message.XML</td></tr>
             <% end_loop %>
         </table>
 
